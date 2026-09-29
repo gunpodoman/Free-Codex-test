@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "currentGoal": "Completed: Prepare Nexus for GitHub repository upload and GitHub Pages deployment without changing application features.",
+  "currentGoal": "Completed: Upload Nexus to the user's public GitHub repository and deploy the live GitHub Pages app.",
   "authoritativeWorkingPath": ".",
   "importantActiveRequirements": [
     "Respond in Korean unless the user requests another language.",
@@ -26,7 +26,7 @@
   ],
   "observationMethod": "Launch the local Node static server, inspect the current app in the browser, and exercise representative interactions. For GitHub readiness, check repository metadata, static asset paths, workflow inputs, and local HTTP responses.",
   "recoveryCheckpoint": {
-    "status": "github-repo-prepared",
+    "status": "github-pages-live",
     "location": ".",
     "reason": "Nexus is implemented in the original workspace; harness files and prior work history are preserved."
   },
@@ -51,5 +51,5 @@
     "docs/TASKS.md",
     "docs/WORKLOG.md"
   ],
-  "nextHighestValueObjective": "Create or select the GitHub repository, upload the project on main, and set Pages source to GitHub Actions for the first deployment."
+  "nextHighestValueObjective": "Wait for the next concrete user request; the repository and live Pages site are published."
 }

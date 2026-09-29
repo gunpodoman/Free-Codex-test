@@ -43,4 +43,4 @@
 
 ## 현재 상태
 
-Nexus 프로젝트 관리 앱을 구현했고 주요 화면과 상호작용을 로컬 브라우저에서 확인했습니다. 프로젝트 루트 `AGENTS.md`는 시작 시 누락되어 있었으며, 새 Markdown 파일은 `docs/`에만 두라는 규칙에 따라 만들지 않았습니다. 지속 상태와 수정 내역은 `.agent/state.json`과 `docs/WORKLOG.md`에서 확인합니다.
+Nexus 프로젝트 관리 앱을 구현했고 주요 화면과 상호작용을 로컬 브라우저에서 확인했습니다. 공개 저장소 [gunpodoman/Free-Codex-test](https://github.com/gunpodoman/Free-Codex-test)에 업로드했고, GitHub Pages 사이트 [gunpodoman.github.io/Free-Codex-test](https://gunpodoman.github.io/Free-Codex-test/)를 배포해 확인했습니다. 프로젝트 루트 `AGENTS.md`는 시작 시 누락되어 있었으며, 새 Markdown 파일은 `docs/`에만 두라는 규칙에 따라 만들지 않았습니다. 지속 상태와 수정 내역은 `.agent/state.json`과 `docs/WORKLOG.md`에서 확인합니다.

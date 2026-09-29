@@ -28,3 +28,10 @@
 - 수정 파일: `.gitignore`, `.github/workflows/deploy-pages.yml`, `package.json`, `index.html`(정적 자산 경로만 상대 경로로 변경), `.agent/state.json`, `docs/HARNESS.md`, `docs/TASKS.md`, `docs/WORKLOG.md`. 로컬 `.git/` 저장소 메타데이터를 만들었습니다.
 - 실행한 확인: `package.json` 및 `.agent/state.json` JSON 파싱; `node --check server.mjs` 및 `src/*.js` 7개 구문 확인; 로컬 HTTP에서 `/`, CSS, SVG, 앱 모듈 7개 모두 200 응답; Pages에 포함될 모든 원본 파일 존재 확인; Git 저장소가 `main` 브랜치이며 아직 커밋이 없음을 확인했습니다.
 - 남은 작업: GitHub Desktop에서 첫 커밋을 만들고 저장소를 게시한 뒤, GitHub 저장소 **Settings → Pages → Source → GitHub Actions**를 선택해야 최초 Pages 배포가 시작됩니다. Pages 사이트는 공개될 수 있으므로 공개 전에 공유 가능한 파일인지 확인합니다.
+
+## 2026-09-30 — GitHub 업로드 및 Pages 배포 완료
+
+- 완료: 공개 저장소 `gunpodoman/Free-Codex-test`에 `main` 브랜치를 업로드했습니다. GitHub Pages 게시 원본을 GitHub Actions로 설정하고 배포 워크플로를 성공적으로 실행했습니다. 공개 Pages 사이트에서 Nexus 대시보드가 로드되는 것을 확인했습니다.
+- 수정 파일: `.agent/state.json`, `docs/HARNESS.md`, `docs/TASKS.md`, `docs/WORKLOG.md`. 원격 GitHub 저장소와 Pages 설정도 갱신했습니다. 최초 앱 업로드 커밋은 `1d5b175`입니다.
+- 실행한 확인: `git push -u origin main` 성공; GitHub 저장소에서 업로드 파일 확인; GitHub Actions Pages 배포 성공; 공개 사이트의 대시보드 화면과 브라우저 콘솔 확인(오류 0, 경고 0).
+- 남은 작업: 없음. 사이트 주소는 `https://gunpodoman.github.io/Free-Codex-test/`입니다.
