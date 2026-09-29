@@ -1,0 +1,15 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Node.js and local logs
+node_modules/
+npm-debug.log*
+
+# GitHub Pages staging output
+_site/
+
+# Operating system files
+.DS_Store
+Thumbs.db

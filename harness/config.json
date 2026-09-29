@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "paths": {
+    "workspaceRoot": "..",
+    "instructionFile": "../AGENTS.md",
+    "taskList": "../docs/TASKS.md",
+    "worklog": "../docs/WORKLOG.md",
+    "persistentState": "../.agent/state.json",
+    "operatorGuide": "../docs/HARNESS.md"
+  },
+  "sessionStartReadOrder": [
+    "instructionFile",
+    "taskList",
+    "worklog"
+  ],
+  "newMarkdownFilesDirectory": "../docs",
+  "requiredWorklogTopics": [
+    "completed",
+    "changed files",
+    "checks run",
+    "remaining work"
+  ],
+  "workCycle": [
+    "ACQUIRE_TRUTH",
+    "PROTECT_STATE",
+    "ESTABLISH_OBSERVABILITY",
+    "CHOOSE_HIGHEST_VALUE_PASS",
+    "EXECUTE",
+    "EXPERIENCE_ACTUAL_RESULT",
+    "REVIEW",
+    "DECIDE",
+    "REVISE_IF_NEEDED",
+    "REVERIFY",
+    "CHECKPOINT",
+    "RELEASE_WHEN_READY"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "currentGoal": "Completed: Prepare Nexus for GitHub repository upload and GitHub Pages deployment without changing application features.",
+  "authoritativeWorkingPath": ".",
+  "importantActiveRequirements": [
+    "Respond in Korean unless the user requests another language.",
+    "Before project work, read AGENTS.md, docs/TASKS.md, and docs/WORKLOG.md in that order.",
+    "At the end of work, record completion, changed files, checks run, and remaining work in docs/WORKLOG.md.",
+    "Create new Markdown files only under docs/.",
+    "Use one consistent data source for projects, tasks, analytics, activity, and notifications.",
+    "Persist user changes in browser storage and seed at least 8 projects, 40 tasks, and 6 users.",
+    "Cover responsive layouts, accessible controls, light/dark/system theme, and functional major actions."
+  ],
+  "approvedInvariants": [
+    "Preserve current project state and do not overwrite existing documents during missing-file initialization.",
+    "Inspect the actual saved deliverable before reporting completion.",
+    "Scale execution and verification to the user goal and artifact."
+  ],
+  "unresolvedDefects": [],
+  "primaryExperiences": [
+    "Overview dashboard with current project and task data.",
+    "Create/edit a task and see the change reflected in task lists, board, and project progress.",
+    "Browse project detail and navigate month/date in the calendar.",
+    "Search, notifications, settings, persistent theme and data.",
+    "Responsive layouts, mobile navigation, light/dark/system themes, and browser-local persistence."
+  ],
+  "observationMethod": "Launch the local Node static server, inspect the current app in the browser, and exercise representative interactions. For GitHub readiness, check repository metadata, static asset paths, workflow inputs, and local HTTP responses.",
+  "recoveryCheckpoint": {
+    "status": "github-repo-prepared",
+    "location": ".",
+    "reason": "Nexus is implemented in the original workspace; harness files and prior work history are preserved."
+  },
+  "relevantVerifiedPaths": [
+    "index.html",
+    "package.json",
+    ".gitignore",
+    ".github/workflows/deploy-pages.yml",
+    "server.mjs",
+    "styles.css",
+    "favicon.svg",
+    "src/app.js",
+    "src/components.js",
+    "src/data.js",
+    "src/icons.js",
+    "src/store.js",
+    "src/utils.js",
+    "src/views.js",
+    "docs/HARNESS.md",
+    "harness/config.json",
+    ".agent/state.json",
+    "docs/TASKS.md",
+    "docs/WORKLOG.md"
+  ],
+  "nextHighestValueObjective": "Create or select the GitHub repository, upload the project on main, and set Pages source to GitHub Actions for the first deployment."
+}
